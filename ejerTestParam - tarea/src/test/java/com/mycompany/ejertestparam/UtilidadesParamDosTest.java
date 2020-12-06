@@ -16,7 +16,7 @@ public class UtilidadesParamDosTest {
     public static List<Object> datos() {
         //devolvera una lista
         return Arrays.asList(new Object[][]{
-            {"a","b","c"},{"d","e","f"},{"g","h","i"}
+            {"a","b","c"},{"d","e","f"},{"g","h","i"},{"g","h",null}
         });
     }
     @Parameter(0)

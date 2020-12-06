@@ -10,7 +10,7 @@ public class Triangulo {
             resultado = "Equilatero";
         } else if (l1 == l2 || l1 == l3 || l2 == l3) {
                 resultado = "Isoceles";
-            } else if (l1 != l2 || l1 != l3 || l3 != l2) {
+            } else if (l1 != l2 && l1 != l3 && l3 != l2) {
                     resultado = "Escaleno";
                 }
         return resultado;
